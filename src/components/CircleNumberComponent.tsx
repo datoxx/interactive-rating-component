@@ -42,4 +42,10 @@ const CircleNumber = styled.span<CircleNumberProps>`
     background: #FC7614;
     color: white;
   }
+  @media (max-width: 375px) {
+    font-size: 14px;
+    line-height: 24px;
+    width: 42px;
+    height: 42px;
+  }
 `
